@@ -1,0 +1,20 @@
+{
+  "name": "house-trapper",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheGallery/house-trapper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheGallery/house-trapper/issues"
+  },
+  "homepage": "https://github.com/TheGallery/house-trapper#readme"
+}
