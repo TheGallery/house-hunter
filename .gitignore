@@ -1,0 +1,4 @@
+.DS_Store
+.env
+agencies.json
+node_modules

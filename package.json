@@ -1,20 +1,30 @@
 {
-  "name": "house-trapper",
+  "name": "house-hunter",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A web scrapper that looks for properties in specified agencies and sends email notifications",
+  "main": "./src/index.js",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard",
+    "start": "node ./src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheGallery/house-trapper.git"
+    "url": "git+https://github.com/TheGallery/house-hunter.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Iosif Psychas",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TheGallery/house-trapper/issues"
+    "url": "https://github.com/TheGallery/house-hunter/issues"
   },
-  "homepage": "https://github.com/TheGallery/house-trapper#readme"
+  "homepage": "https://github.com/TheGallery/house-hunter#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongodb": "^4.1.3",
+    "nodemailer": "^6.7.0",
+    "puppeteer": "^10.4.0"
+  },
+  "devDependencies": {
+    "standard": "^16.0.4"
+  }
 }
